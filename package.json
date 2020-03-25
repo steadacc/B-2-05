@@ -31,7 +31,7 @@
     "express-joi-validation": "^2.0.0",
     "express-pino-logger": "^4.0.0",
     "install": "^0.10.4",
-    "knex": "^0.17.0",
+    "knex": "^0.19.5",
     "mysql2": "^1.6.5",
     "objection": "^1.6.8",
     "ramda": "^0.26.1",
