@@ -1,0 +1,27 @@
+{
+  "db":  {
+    "connection": {
+      "host": "DB_HOST",
+      "user": "DB_USER",
+      "password": "DB_PASS",
+      "database": "DB_NAME"
+    }
+  },
+  "s3": {
+    "bucket": "BUCKET_NAME"
+  },
+  "sns": {
+    "region": "AWS_REGION",
+    "topic_arn": "SNS_TOPIC_ARN",
+    "filter_subject": "SNS_FILTER_SUBJECT"
+  },
+  "endpoint":{
+    "auth": "ENDPOINT_AUTH"
+  },
+  "log": {
+    "name": "SERVICE_NAME",
+    "base": {
+      "env": "NODE_ENV"
+    }
+  }
+}

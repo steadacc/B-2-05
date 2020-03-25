@@ -1,0 +1,10 @@
+FROM node:lts-alpine
+
+WORKDIR /code
+
+ADD package.json package.json
+RUN npm i
+ADD config config
+ADD src src
+
+CMD ["node", "src/index.js"]

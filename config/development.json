@@ -1,0 +1,41 @@
+{
+  "db": {
+    "client": "mysql2",
+    "connection": {
+      "host": "db",
+      "user": "root",
+      "password": "root",
+      "database": "app"
+    },
+    "pool": {
+      "min": 0,
+      "max": 7
+    },
+    "migrations": {
+      "directory": "./priv/migrations"
+    },
+    "seeds": {
+      "directory": "./priv/seeds/dev"
+    },
+    "useNullAsDefault": true
+  },
+  "s3": {
+    "bucket": "test201908"
+  },
+  "sns": {
+    "region": "eu-west-1",
+    "topic_arn": "arn:aws:sns:eu-west-1:459181319149:sadamo-b-2-05",
+    "filter_subject": "image_upload"
+  },
+  "endpoint":{
+    "auth": ""
+  },
+  "log": {
+    "name": "app",
+    "base": {
+      "env": "dev"
+    },
+    "enabled": false,
+    "level": 20
+  }
+}
